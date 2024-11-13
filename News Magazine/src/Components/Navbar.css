@@ -1,0 +1,9 @@
+.list1:hover{
+  background-color: rgb(115, 193, 199);
+  cursor: pointer;
+  
+}
+
+.navbar{
+  background-color: aqua;
+}

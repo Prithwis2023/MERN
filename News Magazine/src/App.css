@@ -1,0 +1,25 @@
+@keyframes appear {
+  from{
+    opacity: 0.9;
+    /* clip-path: inset(100% 100% 0, 0); */
+    scale: 0.85;
+    /* transform: translateX(-10px); */
+  }
+  to{
+    opacity: 1;
+    /* clip-path: inset(0 0 0 0); */
+    scale: 1;
+    /* transform: translateX(0px); */
+  }
+}
+
+.view{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 35%;
+}
+.view1{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
